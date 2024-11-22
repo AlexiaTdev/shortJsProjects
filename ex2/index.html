@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<h1>Todo List</h1>
+<form>
+    <input id='task' placeholder="write a todo" value=""/>
+    <button onclick="event.preventDefault(); addTask()">Add</button>
+</form>
+<div style="display:flex;">
+    <label class="switch" onclick="toggleCheckedTasks()">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label>
+    <p>toggle status</p>
+</div>
+<ul id="listoftodos">
+</ul>
+<script src="./ex2-TodoWithLocalStorage.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./ex2-TodoWithLocalStorage.css">
